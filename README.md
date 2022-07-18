@@ -9,16 +9,16 @@ There are two folders:
 The folder "textual data" contains the txt-files and the stopword list. 
 The txt-files were produced in two different ways: 
 For the medieval manuscripts as well as for the two editions of the [chronicle of Jakob Twinger](https://de.wikisource.org/wiki/Die_Chroniken_der_deutschen_St%C3%A4dte#Die_Chroniken_der_oberrheinischen_St%C3%A4dte._Stra%C3%9Fburg) as well as of the [Oberrheinische Chronik](http://dl.ub.uni-freiburg.de/diglit/grieshaber1850a/0017/image?sid=f39b41f27183a69038021538897f5344#current_page), the software [Transkribus](https://readcoop.eu/transkribus/?sc=Transkribus) was used for automatic text recognition. The resulting output was minimally cleaned: During text recognition, words with diacritics were often split into separate strings, e.g. "brů" and "der", so a dissolution of the diacritics was performed, resulting in one string, e.g. "bruoder". Abbreviations were dissolved, e.g. "andˀ" to "ander". Also, information about the digitizing institution that in some cases is shown on the digital copies and therefore recognised as text was deleted completely.  
-
-Four different HTR models were used for text recognition:
-Dresden, UB, Mscr. F 98: Medieval_Scripts_M2 (model ID 35164)
-Freiburg, UB, Hs. 471: Charter Scripts XIII-XV_M4 (model ID 6091753)
-Heidelberg, UB, Cpg 116: German_Kurrent_XVI-XVIII_M1 (model ID 19584)
-Heidelberg, UB, Cpg 475: Thun Missiven M3 (model ID 431)
-München, BSB, Cgm 568: Charter Scripts XIII-XV_M4 (model ID 6091753)
-Stuttgart, LB, HB V 22: Thun Missiven M3 (model ID 431)
-Wolfenbüttel, HAB, Cod. 16.17.: Charter Scripts XIII-XV_M4 (model ID 6091753)
-
+  
+Four different HTR models were used for text recognition:  
+Dresden, UB, Mscr. F 98: Medieval_Scripts_M2 (model ID 35164)  
+Freiburg, UB, Hs. 471: Charter Scripts XIII-XV_M4 (model ID 6091753)  
+Heidelberg, UB, Cpg 116: German_Kurrent_XVI-XVIII_M1 (model ID 19584)  
+Heidelberg, UB, Cpg 475: Thun Missiven M3 (model ID 431)  
+München, BSB, Cgm 568: Charter Scripts XIII-XV_M4 (model ID 6091753)  
+Stuttgart, LB, HB V 22: Thun Missiven M3 (model ID 431)  
+Wolfenbüttel, HAB, Cod. 16.17.: Charter Scripts XIII-XV_M4 (model ID 6091753)  
+  
 For the edition of the [chronicle of Ulrich Richental](https://edition.mgh.de/001/html/edition.html), the text of the Aulendorfer version was used. The text of the edited [chronicle of Petermann Etterlin](https://www.e-helvetica.nb.admin.ch/view/nbdig-59267!urn%3Anbn%3Ach%3Anbdig-59267%3Anbdig-59267_11.pdf?q=&v=all&urn=nbdig-59267&waybackMode=page&start=0&rows=20&sort=score%20desc%2C%20ehs_urn_id%20asc) could be reused. For the edition of ["Das Leben des Heiligen Ulrich"](https://doi.org/10.1515/9783110816815), I also could reuse already existing full text; unfortunately, the edition is not openly accessible, so I cannot provide the text here.  
 The stopword list is an enhanced list of the [Middle High German stopword list](https://docs.cltk.org/en/latest/languages.html#middle-high-german) of the [Classical Language Toolkit](http://cltk.org/).
 
