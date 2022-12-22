@@ -11,13 +11,13 @@ The txt-files were produced in two different ways:
 For the medieval manuscripts as well as for the two editions of the [chronicle of Jakob Twinger](https://de.wikisource.org/wiki/Die_Chroniken_der_deutschen_St%C3%A4dte#Die_Chroniken_der_oberrheinischen_St%C3%A4dte._Stra%C3%9Fburg) as well as of the [Oberrheinische Chronik](http://dl.ub.uni-freiburg.de/diglit/grieshaber1850a/0017/image?sid=f39b41f27183a69038021538897f5344#current_page), the software [Transkribus](https://readcoop.eu/transkribus/?sc=Transkribus) was used for automatic text recognition. The resulting output was minimally cleaned: During text recognition, words with diacritics were often split into separate strings, e.g. "brů" and "der", so a dissolution of the diacritics was performed, resulting in one string, e.g. "bruoder". Abbreviations were dissolved, e.g. "andˀ" to "ander". Also, information about the digitizing institution that in some cases is shown on the digital copies and therefore recognised as text was deleted completely.  
   
 Four different HTR/HTR+ models were used for text recognition:  
-[Dresden, UB, Mscr. F 98](https://handschriftencensus.de/18800): Medieval_Scripts_M2 (model ID 35164)  (CITLab HTR+)
-[Freiburg, UB, Hs. 471](https://handschriftencensus.de/13868): Charter Scripts XIII-XV_M4 (model ID 6091753)  (CITLab HTR+)
-[Heidelberg, UB, Cpg 116](https://handschriftencensus.de/10347): German_Kurrent_XVI-XVIII_M1 (model ID 19584)  (CITLab HTR+)
-[Heidelberg, UB, Cpg 475](https://handschriftencensus.de/10406): Thun Missiven M3 (model ID 431)  (CITLab HTR)
-[München, BSB, Cgm 568](https://handschriftencensus.de/6173): Charter Scripts XIII-XV_M4 (model ID 6091753)  (CITLab HTR+)
-[Stuttgart, LB, HB V 22](https://handschriftencensus.de/5897): Thun Missiven M3 (model ID 431)  (CITLab HTR)
-[Wolfenbüttel, HAB, Cod. 16.17.](https://handschriftencensus.de/6669): Charter Scripts XIII-XV_M4 (model ID 6091753)  (CITLab HTR+)
+[Dresden, UB, Mscr. F 98](https://handschriftencensus.de/18800): Medieval_Scripts_M2 (model ID 35164)  (CITLab HTR+)  
+[Freiburg, UB, Hs. 471](https://handschriftencensus.de/13868): Charter Scripts XIII-XV_M4 (model ID 6091753)  (CITLab HTR+)  
+[Heidelberg, UB, Cpg 116](https://handschriftencensus.de/10347): German_Kurrent_XVI-XVIII_M1 (model ID 19584)  (CITLab HTR+)  
+[Heidelberg, UB, Cpg 475](https://handschriftencensus.de/10406): Thun Missiven M3 (model ID 431)  (CITLab HTR)  
+[München, BSB, Cgm 568](https://handschriftencensus.de/6173): Charter Scripts XIII-XV_M4 (model ID 6091753)  (CITLab HTR+)  
+[Stuttgart, LB, HB V 22](https://handschriftencensus.de/5897): Thun Missiven M3 (model ID 431)  (CITLab HTR)  
+[Wolfenbüttel, HAB, Cod. 16.17.](https://handschriftencensus.de/6669): Charter Scripts XIII-XV_M4 (model ID 6091753)  (CITLab HTR+)  
 
 (As of autums 2022, Transkribus suspended the HTR+ engine and only supports PyLaia trained models; while there are models that fit the different writings in the used manuscripts, the transcription output might differ a lot from the output achieved with the other engine.)
   
