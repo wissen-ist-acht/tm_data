@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/475851169.svg)](https://zenodo.org/doi/10.5281/zenodo.13788940)
+
+
 # tm data
 
 This repository contains the data used to perform topic modeling on premodern texts; the article that discusses the application and the outcomes can be found here: [https://doi.org/10.57813/20220623-153139-0](https://doi.org/10.57813/20220623-153139-0)
